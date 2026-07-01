@@ -1,0 +1,36 @@
+2026-07-01 18:59:21,750 - DEBUG - [client.py:45] - Sending request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.005, 'timestamp': 1782912561750, 'recvWindow': 6000, 'signature': 'e4f03137f79fa4d42b83f40788a19d968ceeaf3907289ba31406db5a003c9e1c'}
+2026-07-01 18:59:21,752 - DEBUG - [connectionpool.py:1062] - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2026-07-01 18:59:22,227 - DEBUG - [connectionpool.py:544] - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.005&timestamp=1782912561750&recvWindow=6000&signature=e4f03137f79fa4d42b83f40788a19d968ceeaf3907289ba31406db5a003c9e1c HTTP/1.1" 401 46
+2026-07-01 18:59:22,228 - ERROR - [client.py:56] - Binance API Error -2014: API-key format invalid.
+2026-07-01 19:00:44,990 - DEBUG - [client.py:45] - Sending request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.005, 'timestamp': 1782912644990, 'recvWindow': 6000, 'signature': '46e9a6a7cc0a1430be80880816fa7026cc562f15a93b0b1eaf816a6276bef7ec'}
+2026-07-01 19:00:44,992 - DEBUG - [connectionpool.py:1062] - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2026-07-01 19:00:45,553 - DEBUG - [connectionpool.py:544] - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.005&timestamp=1782912644990&recvWindow=6000&signature=46e9a6a7cc0a1430be80880816fa7026cc562f15a93b0b1eaf816a6276bef7ec HTTP/1.1" 401 69
+2026-07-01 19:00:45,554 - ERROR - [client.py:56] - Binance API Error -2015: Invalid API-key, IP, or permissions for action
+2026-07-01 19:15:10,718 - DEBUG - [client.py:45] - Sending request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.005, 'timestamp': 1782913510717, 'recvWindow': 6000, 'signature': 'e9dee81ae3b9451ec842d333472f040549e983b8aa6174dfc1ae4c33168e7e0d'}
+2026-07-01 19:15:10,720 - DEBUG - [connectionpool.py:1062] - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2026-07-01 19:15:11,183 - DEBUG - [connectionpool.py:544] - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.005&timestamp=1782913510717&recvWindow=6000&signature=e9dee81ae3b9451ec842d333472f040549e983b8aa6174dfc1ae4c33168e7e0d HTTP/1.1" 401 46
+2026-07-01 19:15:11,184 - ERROR - [client.py:56] - Binance API Error -2014: API-key format invalid.
+2026-07-01 19:17:49,764 - DEBUG - [client.py:45] - Sending request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.005, 'timestamp': 1782913669763, 'recvWindow': 6000, 'signature': '42d7d4be8a2e5f4742e066afacb150d3e42700fab0b271b645d0bec8085164bc'}
+2026-07-01 19:17:49,767 - DEBUG - [connectionpool.py:1062] - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2026-07-01 19:17:50,179 - DEBUG - [connectionpool.py:544] - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.005&timestamp=1782913669763&recvWindow=6000&signature=42d7d4be8a2e5f4742e066afacb150d3e42700fab0b271b645d0bec8085164bc HTTP/1.1" 401 46
+2026-07-01 19:17:50,180 - ERROR - [client.py:56] - Binance API Error -2014: API-key format invalid.
+2026-07-01 19:20:04,976 - DEBUG - [client.py:45] - Sending request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.005, 'timestamp': 1782913804976, 'recvWindow': 6000, 'signature': '25ba1cdd1c2e77f5c0c662c948507a0bce448472dc79cb3a82ba60108dd02705'}
+2026-07-01 19:20:04,978 - DEBUG - [connectionpool.py:1062] - Starting new HTTPS connection (1): fapi.binance.com:443
+2026-07-01 19:20:05,455 - DEBUG - [connectionpool.py:544] - https://fapi.binance.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.005&timestamp=1782913804976&recvWindow=6000&signature=25ba1cdd1c2e77f5c0c662c948507a0bce448472dc79cb3a82ba60108dd02705 HTTP/1.1" 401 46
+2026-07-01 19:20:05,456 - ERROR - [client.py:56] - Binance API Error -2014: API-key format invalid.
+2026-07-01 19:23:30,562 - DEBUG - [client.py:46] - Sending request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.005, 'timestamp': 1782914010562, 'recvWindow': 6000, 'signature': 'e15eb460062de0f7b867e9bd59c955cc76456dcd5425c8da52be06cd5a1cc99b'}
+2026-07-01 19:23:30,565 - DEBUG - [connectionpool.py:1062] - Starting new HTTPS connection (1): demo-fapi.binance.com:443
+2026-07-01 19:23:31,267 - DEBUG - [connectionpool.py:544] - https://demo-fapi.binance.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.005&timestamp=1782914010562&recvWindow=6000&signature=e15eb460062de0f7b867e9bd59c955cc76456dcd5425c8da52be06cd5a1cc99b HTTP/1.1" 401 46
+2026-07-01 19:23:31,268 - ERROR - [client.py:57] - Binance API Error -2014: API-key format invalid.
+2026-07-01 19:27:25,367 - DEBUG - [client.py:46] - Sending request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.005, 'timestamp': 1782914245366, 'recvWindow': 6000, 'signature': '3212f70ab6a936f8f10695d49ee2ce52b058e77e6dd71f8bdd2ac6bbd50b8b6b'}
+2026-07-01 19:27:25,369 - DEBUG - [connectionpool.py:1062] - Starting new HTTPS connection (1): demo-fapi.binance.com:443
+2026-07-01 19:27:25,976 - DEBUG - [connectionpool.py:544] - https://demo-fapi.binance.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.005&timestamp=1782914245366&recvWindow=6000&signature=3212f70ab6a936f8f10695d49ee2ce52b058e77e6dd71f8bdd2ac6bbd50b8b6b HTTP/1.1" 401 46
+2026-07-01 19:27:25,977 - ERROR - [client.py:57] - Binance API Error -2014: API-key format invalid.
+2026-07-01 19:31:52,846 - DEBUG - [client.py:46] - Sending request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.005, 'timestamp': 1782914512846, 'recvWindow': 6000, 'signature': '888e31528ce307dcf49dc5bb1ad873161a16b75380c0235cfea8255a508945ae'}
+2026-07-01 19:31:52,848 - DEBUG - [connectionpool.py:1062] - Starting new HTTPS connection (1): demo-fapi.binance.com:443
+2026-07-01 19:31:53,574 - DEBUG - [connectionpool.py:544] - https://demo-fapi.binance.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.005&timestamp=1782914512846&recvWindow=6000&signature=888e31528ce307dcf49dc5bb1ad873161a16b75380c0235cfea8255a508945ae HTTP/1.1" 401 46
+2026-07-01 19:31:53,575 - ERROR - [client.py:57] - Binance API Error -2014: API-key format invalid.
+2026-07-01 19:33:05,845 - DEBUG - [client.py:46] - Sending request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.005, 'timestamp': 1782914585845, 'recvWindow': 6000, 'signature': '19456c4f4e49609a4e2558b75a64c00053aba61165a49a9a5943990beb611fa9'}
+2026-07-01 19:33:05,849 - DEBUG - [connectionpool.py:1062] - Starting new HTTPS connection (1): demo-fapi.binance.com:443
+2026-07-01 19:33:06,637 - DEBUG - [connectionpool.py:544] - https://demo-fapi.binance.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.005&timestamp=1782914585845&recvWindow=6000&signature=19456c4f4e49609a4e2558b75a64c00053aba61165a49a9a5943990beb611fa9 HTTP/1.1" 401 46
+2026-07-01 19:33:06,638 - ERROR - [client.py:57] - Binance API Error -2014: API-key format invalid.
